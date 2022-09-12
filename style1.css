@@ -1,0 +1,139 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(118,50,63);
+    
+  }
+  
+  .nav li {
+    float: left;
+    margin-left: 10px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: #940824;
+  }
+
+  .footer {
+    height: 100px;
+    background-color: rgb(118,50,63);
+    color: white;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  .heading
+  {
+      text-align: center;
+   
+      width:fit-content;
+      margin: auto;
+      margin-bottom: 30px;
+     
+  }
+  .objective
+  {
+    border:1px solid red;
+    width: 80%;
+  }
+  .first
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid red;
+  }
+  .head
+  {
+    width: 15%;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+    border:1px solid red;
+  }
+  .button
+  {
+
+    border:1px solid red;
+    margin: 5px 30px;
+    width: 15%;
+    
+  }
+button {
+    background-color: #76323f;
+    height: 40px;
+    border-color: #76323f;
+    color: white;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: #940824;
+    border-color: #940824;
+    cursor: pointer;
+}
+.nt1
+{
+  border:2px solid yellow;
+  width: 25%;
+  margin-right: 20px;
+  margin-left: 5px;
+  margin-top: 10px;
+  text-align: center;
+  height: 360px;
+  border-radius: 8px;
+  padding:8px;
+}
+.head1
+{
+  background-color: #940824;
+  height: 30px;
+  padding-top: 10px;
+  border-radius: 8px;
+  color: white;
+}
+p
+{
+  text-align: justify;
+}
+.notices
+{
+  border:1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nt2
+{
+  border:1px solid red;
+  width: 75%;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+
+}
+
+.n1 
+{
+  margin: 0px 20px;
+}
+
+
+  
