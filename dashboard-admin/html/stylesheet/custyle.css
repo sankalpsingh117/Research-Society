@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background: #E4E8F0;
+}
+.wrapper{
+    background-color: #fff;
+    width: 500px;
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 100px auto 0;
+    position: relative;
+    border-top: 10px solid #1ab188;
+    box-shadow: 2px 2px 10px #00000080;
+}
+.wrapper h1{
+    font-size: 24px;
+    line-height: 24px;
+    padding: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 1px dotted #333;
+}
+
+.input-name{
+    width: 100%;
+    position: relative;
+    margin: 20px auto
+}
+.lock{
+    padding: 8px 11px;
+}
+.name{
+width: 100%;
+padding: 8px 0px 8px 40px;
+
+}
+.input-name span{
+    margin-left: 35px;
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+
+}
+.input-name i{
+    position: absolute;
+    font-size: 20px;
+    border-right: 1px solid #cccccc;
+   
+}
+.email{
+    padding: 8px;
+}
+.text-name, .name{
+    border: 1px solid #cccccc;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition:all 00.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+}
+.text-name:hover, .name:hover{
+    background-color: #fafafa;
+}
+.text-name:focus, .name:focus{
+    -webkit-box-shadow: 0 0 2px 1px rgba(255,169,0,0.5);
+    -moz-box-shadow:0 0 2px 1px rgba(255,169,0,0.5);
+    box-shadow:0 0 2px 1px rgba(255,169,0,0.5);
+    color: #1ab188;
+    border-right: 1px solid#1ab188;
+    border: 1px solid #1ab188;
+    background: #fafafa;
+
+}
+.btn1{
+    background: #1ab188;
+    border: 1px solid rgba(0,0,0,0.2);
+    color: #fff;
+    outline: none;
+    padding: 0 10px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px 0 rgba(255,255,255,0.6);
+    letter-spacing: 1px;
+    transition: 0.5s;
+    width: 100%;
+    font-size: 18px;
+}
+.btn1:hover , .btn1:focus{
+    background-color: #179677;
+}
+
+
+
+
+
+
+@media (max-width:480px){
+    .wrapper{
+        width: 100%;
+    }
+    .input-name{
+        margin-bottom: -10px;
+    }
+    .name{
+        width: 100%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 20px;
+    }
+    .input-name span{
+        padding: 0;
+        margin: 0;
+    }
+}

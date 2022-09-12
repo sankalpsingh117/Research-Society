@@ -1,0 +1,350 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-image: url("mainimage/re1.jpg");
+     height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.res1 {
+    background-color: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.header1 .res1 .h3a {
+    border-left: 5px solid #940824;
+    color: #fff;
+    margin-top: 20%;
+    position: relative;
+    padding-left: 5px;
+    font-size: 2rem;
+}
+
+.jumbotron .row .col-sm-6 .notice {
+    background-color: #fff;
+    color: #000000;
+    width: 350px;
+    height: 400px;
+    box-shadow: 5px 10px 20px #888888;
+    border-radius: 20px;
+}
+
+
+
+
+
+.counter {
+    color: #0B697E;
+    background: linear-gradient(#0B697E, #0B697E 43%, transparent 43%, transparent 57%, #0B697E 57%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 210px;
+    height: 210px;
+    padding: 43px 28px 35px;
+    margin: 0 auto;
+    border-radius: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.counter:before,
+.counter:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    right: 13px;
+    bottom: 13px;
+    z-index: -1;
+}
+
+.counter:after {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    top: 23px;
+    left: 23px;
+    right: 23px;
+    bottom: 23px;
+}
+
+.counter .counter-icon {
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.counter h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 0 9px;
+}
+
+.counter .counter-value {
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+}
+
+.counter.green {
+    color: #59AE58;
+    background: linear-gradient(#59AE58, #59AE58 43%, transparent 43%, transparent 57%, #59AE58 57%);
+}
+
+.counter.yellow {
+    color: #FEA703;
+    background: linear-gradient(#FEA703, #FEA703 43%, transparent 43%, transparent 57%, #FEA703 57%);
+}
+
+ .counter.blue {
+    color: #0C8AFA;
+    background: linear-gradient(#0C8AFA, #0C8AFA 43%, transparent 43%, transparent 57%, #0C8AFA 57%);
+}
+
+
+
+
+
+
+
+
+
+.container-fluid .row .col-sm-6 div {
+    margin-top: 20px;
+}
+
+.container-fluid .row .col-sm-6 div .btn1 {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #940824;
+}
+
+.container-fluid .row .col-sm-6 li {
+    text-align: justify;
+}
+
+.container-fluid .row .col-sm-6 div .btn1:hover {
+    background-color: #940824;
+    color: #fff;
+    cursor: pointer;
+    transition: all .8s ease-in-out;
+}
+
+.container-fluid .row .col-sm-6 .cad {
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 200px;
+
+
+}
+
+.container-fluid .row .col-sm-6 .cad img {
+    transform: scaleY(1.6);
+    height: 150px;
+    width: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.container-fluid .row .col-sm-6 .cad img:hover {
+    cursor: pointer;
+   
+}
+
+.container-fluid .row .col-sm-6 .cad .cad-body {
+    margin-top: 40px;
+   
+}
+
+
+.team {
+    background-image: url("mainimage/teampic.jpg");
+    height:450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.team1 {
+    background-color: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.team .team1 .row .bod11 {
+    border-right: 2px solid #fff;
+}
+
+
+
+
+.container .row .col-sm-4 .card1 {
+    background-color: #fff;
+    color: #000000;
+    width: 350px;
+    height: 400px;
+    box-shadow: 5px 10px 20px #888888;
+    border-radius: 30px;
+}
+
+.container .row .col-sm-4 .card1 a {
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #940824;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.container .row .col-sm-4 .card1 a:hover{
+    background-color: #940824;
+    color: #fff;
+    cursor: pointer;
+    transition: all .8s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+    .counter {
+        margin-bottom: 40px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:480px) {
+    .counter {
+        margin-bottom: 40px;
+    }
+
+   
+        
+.container-fluid .row #faculty{
+    text-align: center;
+    justify-content: center;
+}
+.container-fluid .row .col-sm-6 .cad {
+    height: 300px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+   margin-top: 80px;
+   margin-left:0;
+   margin-left:30px;
+   
+
+
+
+}
+
+.container-fluid .row .col-sm-6 .cad img {
+    transform: scaleY(1.6);
+    height: 150px;
+    width: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+.team {
+    background-image: url("mainimage/teampic.jpg");
+    height:850px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+
+.team1 {
+    background-color: #0000008a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.jumbotron-fluid .container .row .col-sm-9 #upevents{
+justify-content: center;
+margin-left:80px;
+margin-top: 30px;
+text-align: center;
+}
+    
+}
+
+
+.fa-facebook-square:hover {
+    color: #3B579D;
+    cursor: pointer;
+}
+
+.fa-linkedin:hover {
+    color: #007BB6;
+    cursor: pointer;
+    
+}
+
+.fa-twitter-square:hover {
+    color: #2CAAE1;
+    cursor: pointer;
+}
+
+
+.social{
+  margin:5px;
+}
