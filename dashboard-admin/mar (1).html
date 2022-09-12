@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee behavior="" direction=""><span id="con">Conference 0 &nbsp</span><span id="book">Book 0 &nbsp</span><span id="bookch">Book Chapter 5 &nbsp</span><span id="journo">Journal 3</span></marquee>
+</body>
+<script>
+    var conference=document.getElementById("con").innerHTML
+    var book=document.getElementById("book").innerHTML
+    var bookch=document.getElementById("bookch").innerHTML
+    var journo=document.getElementById("journo").innerHTML
+
+    function getnumindex(s)
+    {
+        for(i =0;i<s.length;i++)
+        {
+            if(s[i]>='0' && s[i]<='9')
+            {
+                return  i
+            }
+        }
+    }
+
+    if(conference[getnumindex(conference)]=='0')
+    {
+        document.getElementById("con").style.display='none'
+    }
+    if(book[getnumindex(book)]=='0')
+    {
+        document.getElementById("book").style.display='none'
+    }
+    if(bookch[getnumindex(bookch)]=='0')
+    {
+        document.getElementById("bookch").style.display='none'
+    }
+    if(journo[getnumindex(journo)]=='0')
+    {
+        document.getElementById("journo").style.display='none'
+    }
+    
+</script>
+</html>
